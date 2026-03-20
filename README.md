@@ -12,3 +12,12 @@ Standalone EXE — Build a single .exe with PyInstaller; no Python installation 
 
 Hardware: TDK Lambda Z+ / Genesys Series · RS-232 · 9600 baud 8N1
 Requirements: Python 3.8+ · pyserial · matplotlib · openpyxl · Windows 10/11
+
+QUICK START
+
+pip install pyserial matplotlib openpyxl
+python TDKLambda_Controller.py
+
+# Or build a standalone .exe (Windows)
+pip install pyinstaller
+pyinstaller --onefile --windowed TDKLambda_Controller.py
